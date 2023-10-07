@@ -1,10 +1,10 @@
 # TyperRacerPrankYourFriends
 Are you tired of that one friend who keeps beating you in Typer Racer and wants to shatter their ego?
-Prank him with this script
+Prank him with this script.
 
 # AutoType: Simulate Human Typing with Mistakes
 
-This is a lightweight script that simulates human typing, complete with the occasional typographical error. It uses jQuery for DOM manipulation and event handling.
+This lightweight script simulates human typing, complete with the occasional typographical error. It uses jQuery for DOM manipulation and event handling.
 
 ## Features
 - Simulates human typing speed with random intervals.
@@ -23,5 +23,6 @@ This is a lightweight script that simulates human typing, complete with the occa
    - Modify the `wrongChar` generation in `makeMistakeAndCorrect` function for different mistake characters.
 
 **TLDR**:
-Open the inspect element, and then paste this script into the console after you see the countdown.
+Open the inspect element, and then paste this script into the console after seeing the countdown.
 Right before you see the typing indicator, press space and then hold the right arrow.
+-Intentionally made the speed no faster than 99 wpm
