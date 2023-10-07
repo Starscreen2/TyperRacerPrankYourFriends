@@ -18,8 +18,8 @@ function executeScript() {
         var i = 0;
 
         function getRandomInterval() {
-            var minInterval = 121; // CUSTOMIZE: Adjusted for fastest typing speed (99 WPM)
-            var maxInterval = 172; // CUSTOMIZE: Adjusted for slowest typing speed (70 WPM)
+            var minInterval = 50; // CUSTOMIZE: Adjusted for fastest typing speed (99 WPM)
+            var maxInterval = 162; // CUSTOMIZE: Adjusted for slowest typing speed (70 WPM)
 
             // Slightly longer pause for spaces and punctuation
             if (inputText[i] === ' ' || [',', '.', ';', ':', '!', '?'].includes(inputText[i])) {
@@ -44,7 +44,7 @@ function executeScript() {
 
             $('.txtInput').val($('.txtInput').val() + wrongChars);
 
-            await new Promise(resolve => setTimeout(resolve, Math.random() * (750 - 400) + 400)); // CUSTOMIZE: Delay for fixing the error for high WPM typist
+            await new Promise(resolve => setTimeout(resolve, Math.random() * (950 - 400) + 400)); // CUSTOMIZE: Delay for fixing the error for high WPM typist
 
             var currentVal = $('.txtInput').val();
             $('.txtInput').val(currentVal.slice(0, -mistakeLength));
@@ -70,7 +70,7 @@ function executeScript() {
             }
 
             // Adjust mistake probability
-            var effectiveMistakeProbability = 1 / 150; // CUSTOMIZE: Chance of typing a character incorrectly for high WPM typist
+            var effectiveMistakeProbability = 1 / 70; // CUSTOMIZE: Chance of typing a character incorrectly for high WPM typist
             if (['th', 'st', 'nd', 'rd'].some(suffix => inputText.slice(i - 2, i) === suffix)) {
                 effectiveMistakeProbability *= 1.2; // CUSTOMIZE: Increase mistake probability for tricky sequences
             }
