@@ -25,4 +25,6 @@ This lightweight script simulates human typing, complete with the occasional typ
 **TLDR**:
 Open the inspect element, and then paste this script into the console after seeing the countdown.
 Right before you see the typing indicator, press space and then hold the right arrow.
--Intentionally made the speed no faster than 99 wpm
+
+(Intentionally made the speed no faster than 99 wpm)
+(Use wisely; it's not my fault if you get banned!)
