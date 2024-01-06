@@ -28,3 +28,6 @@ Right before you see the typing indicator, press space and then hold the right a
 
 (Intentionally made the speed no faster than 99 wpm)
 (Use wisely; it's not my fault if you get banned!)
+
+
+Update, I am thinking of making this into an extension
