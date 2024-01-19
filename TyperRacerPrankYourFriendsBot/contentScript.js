@@ -65,7 +65,7 @@
                 return;
             }
 
-            var effectiveMistakeProbability = 1 / 70;
+            var effectiveMistakeProbability = 1 / 50;
             if (['th', 'st', 'nd', 'rd'].some(suffix => inputText.slice(i - 2, i) === suffix)) {
                 effectiveMistakeProbability *= 1.5; // Increase mistake probability for tricky sequences
             }
